@@ -22,4 +22,8 @@ export default class Log {
   public static error(msg: string) {
     console.error("<E>: " + msg);
   }
+
+  public static test(msg: string) {
+    console.error("<X>: " + msg);
+  }
 }
